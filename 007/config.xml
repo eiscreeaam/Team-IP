@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+		xmlns:gap="http://phonegap.com/ns/1.0" 
+		id="com.gordoncollegeccs.edu.ph.teamip" version="1.0">
+
+<name>BestAnswerQuiz</name>
+<description>Sample Lang</description>
+<author>team IP</author> <gap:platforms>
+
+<gap:platform name="android" />
+</gap:platforms>
+
+<icon src="larawan/logo.png" gap:platform="android" width="57" height="57" />
+
+<access origin="*" subdomains="true" />
+<access uri="*" subdomains="true" />
+
+<feature name="InAppBrowser">
+<param name="android-package" value="org.apache.cordova.InAppBrowser" />
+</feature>
+
+<preference name="orientation" value="landscape" />
+<preference name="fullscreen" value="true" />
+<preference name="target-device" value="universal" />
+
+</widget>
